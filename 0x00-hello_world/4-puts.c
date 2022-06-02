@@ -1,6 +1,11 @@
-#!bin/bash
 #include <stdio.h>
-int main(void){
-puts("\"Programming is like building a multilingual puzzle");
-return (0);
+/**
+ * main- using puts
+ * Return: returns value
+ * Description: about the file
+ */
+int main(void)
+{
+	puts("\"Programming is like building a multilingual puzzle");
+	return (0);
 }
