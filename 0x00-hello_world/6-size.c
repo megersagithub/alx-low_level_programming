@@ -3,7 +3,7 @@
  * main: the starting point
  * Return: returns 0 for 0s
  * description: A program prints a atring a size of variable types
- * */
+ **/
 int main(void)
 {
 	printf("Size of char : %zu byte(s)\n", sizeof(char));
