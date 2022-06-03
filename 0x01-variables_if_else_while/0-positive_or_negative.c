@@ -2,16 +2,17 @@
 #include <stdio.h>
 #include <time.h>
 /**
- * main- generate random numbers
- * Return: return +ve or 0 or -ve
- * Description: this program prints +ve number or 0 or -ve number
+ * main- generate randon number
+ * Return: return 0 or -ve or +ve value
+ * Description: conditional
  */
 int main(void)
 {
 	int n;
 
-	scrand(time(0));
+	srand(time(0));
 	n = rand() - RAND_MAX / 2;
+
 	if (n < 0)
 		printf("%d is negative\n", n);
 	else if (n == 0)
