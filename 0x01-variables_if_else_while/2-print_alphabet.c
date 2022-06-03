@@ -1,18 +1,18 @@
 #include <stdlib.h>
-#include <time.h>
 #include <stdio.h>
+#include <time.h>
 /**
- * main- print lower case letter
- * Return: return alphabet
- * Description: prints the alphabet in lowercase
+ * main- print small letters
+ * Return: return letters
+ * Description: this program returns lower case letters
  */
 int main(void)
 {
-	char alphabet;
+	char alph;
 
-	fror(alphabet = 'a'; alphabet <= 'z'; alphabet++)
+	for (alph = 'a'; alph <= 'z'; alph++)
 	{
-		putchar (alphabet);
+		putchar (alph);
 	}
 	putchar ('\n');
 	return (0);
