@@ -13,7 +13,7 @@ int main(void)
 	j = 48;
 	a = 48;
 
-	while (e < 58)
+	while (j < 58)
 	{
 		i = 48;
 		while (i < 58)
@@ -24,7 +24,7 @@ int main(void)
 				if (j != i && j != a && i != a && j < i && i < a)
 				{
 					putchar(j);
-					putchar();
+					putchar(i);
 					putchar(a);
 					if (i == 56 && j == 55 && a == 57)
 					{
