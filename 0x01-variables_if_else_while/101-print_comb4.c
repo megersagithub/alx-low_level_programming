@@ -31,7 +31,6 @@ int main(void)
 						break;
 					}
 					putchar(',');
-					putchar(',');
 				}
 				a++;
 			}
