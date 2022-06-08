@@ -3,9 +3,9 @@
 /**
  * print_times_table - prints n times table.
  *
- * @n: number times table.
+ * @n: number times table (0 < n <= 15)
  *
- * Return: nothing
+ * Return: no return
  */
 void print_times_table(int n)
 {
