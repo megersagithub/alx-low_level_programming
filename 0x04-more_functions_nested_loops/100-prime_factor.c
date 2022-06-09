@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <math.h>
 
 /**
  * main - distiguish prime numbers.
@@ -10,14 +9,14 @@
 int main(void)
 {
 	unsigned int long num = 612852475143, i = (int) sqrt(num);
-	while (1)
+	for (i = 2; i <= num; i++)
 	{
 		if (num % i == 0)
 		{
-			printf("%lu \n", num / i);
-			break;
+			num /= i;
+			i--;
 		}
-		i--;
 	}
+	printf("%ld\n", i);
 	return (0);
 }
