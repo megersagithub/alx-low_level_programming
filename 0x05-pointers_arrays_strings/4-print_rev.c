@@ -2,17 +2,18 @@
 #include <string.h>
 
 /**
- * print_rev - prints string in reverse.
- * @st: string
+ * print_rev - prints string reverse
+ * @str : pointer string
  */
-void print_rev(char *st)
+
+void print_rev(char *str)
 {
 	int i = 0;
-	int len = strlen(st) - 1;
+	int len = strlen(str) - 1;
 
-	while (len >= 0)
+	while (len >= i)
 	{
-		_putchar(st[len]);
+		_putchar(str[len]);
 		len--;
 	}
 	_putchar('\n');
