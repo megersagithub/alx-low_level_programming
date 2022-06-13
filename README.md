@@ -1,1 +1,1 @@
-This direcory comtains pointers, arrays and strings
+low level programming
