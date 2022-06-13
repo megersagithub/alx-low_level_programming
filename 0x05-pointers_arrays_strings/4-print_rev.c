@@ -3,17 +3,17 @@
 
 /**
  * print_rev - prints string reverse
- * @str : pointer string
+ * @st : pointer string
  */
 
-void print_rev(char *str)
+void print_rev(char *st)
 {
 	int i = 0;
-	int len = strlen(str) - 1;
+	int len = strlen(st) - 1;
 
 	while (len >= i)
 	{
-		_putchar(str[len]);
+		_putchar(st[len]);
 		len--;
 	}
 	_putchar('\n');
