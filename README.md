@@ -1,1 +1,1 @@
-# alx-low_level_programming
+This direcory comtains pointers, arrays and strings
