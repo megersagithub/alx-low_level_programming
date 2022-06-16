@@ -9,17 +9,17 @@
 char *leet(char *st)
 {
 	int i, j;
-	char st[] = "aeotl";
-	char st[] = "AEOTL";
-	char st[] = "43071";
+	char st1[] = "aeotl";
+	char st1[] = "AEOTL";
+	char st2[] = "43071";
 
 	for (i = 0; *(st + i) != '\0'; i++)
 	{
 		for (j = 0; j < 5; j++)
 		{
-			if (*(st + i) == *(st + j) || *(st + i) == *(st + j))
+			if (*(st + i) == *(st1 + j) || *(st + i) == *(st1 + j))
 			{
-				*(st + i) = *(st + j);
+				*(st + i) = *(st2 + j);
 				break;
 			}
 		}
