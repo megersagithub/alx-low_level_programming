@@ -2,21 +2,21 @@
 
 /**
  * *_strchr - locates character in string.
- * @s: pointer to constant.
+ * @st: pointer to constant.
  * @c: constant.
  *
  * Return: string.
  */
 
-char *_strchr(char *s, char c)
+char *_strchr(char *st, char c)
 {
 	int i;
 
-	for (i = 0; s[i] >= '\0'  ; i++)
+	for (i = 0; st[i] >= '\0'  ; i++)
 	{
-		if (s[i] == c)
+		if (st[i] == c)
 		{
-			return (s + i);
+			return (st + i);
 		}
 	}
 	return ('\0');
