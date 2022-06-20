@@ -27,5 +27,5 @@ unsigned int _strspn(char *st, char *accept)
 			break;
 		}
 	}
-	return (cmpt);
+	return (cm);
 }
